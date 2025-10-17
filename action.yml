@@ -1,0 +1,15 @@
+name: Github Action Test
+author: Soumojit Ash
+
+inputs:
+  MESSAGE:
+    description: 'Message to be printed'
+    required: true
+    default: 'Hello, World!'
+
+runs:
+  using: 'docker'
+  image: 'docker://github-action-test/github-action-test:latest'
+
+branding:
+  icon: 'activity'

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  github-action-test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - MESSAGE=${MESSAGE:-Hello, World!}
+    # volumes:
+    #   - ./sources:/github-action-test
+
