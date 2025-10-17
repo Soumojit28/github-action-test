@@ -9,7 +9,7 @@ inputs:
 
 runs:
   using: 'docker'
-  image: 'docker://github-action-test/github-action-test:latest'
+  image: 'docker://soumojit28/github-action-test:latest'
 
 branding:
   icon: 'activity'
